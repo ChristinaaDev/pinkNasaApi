@@ -1,0 +1,124 @@
+/******************************************
+/* CSS
+/*******************************************/
+html{
+  font-size: 62.5%;
+}
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+  height: 50vh;
+}
+
+iframe{
+  display: block;
+  margin: 0 auto;
+  height: 50vh;
+  width: 100vh;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.hidden {
+  display: none;
+}
+
+/* h1 edits */
+
+h1{
+  text-align: center;
+  font-size: 5rem;
+  color: #46404c;
+}
+
+h2{
+  text-align: center;
+  font-size: 4rem;
+  color: #46404c;
+
+}
+
+h3{
+  text-align: center;
+  font-size: 3.5rem;
+  color: #252326;
+}
+
+body{
+  background:no-repeat url(/img/nasagif.gif);
+  background-position: center 0%;
+  background-size: cover;
+
+}
+
+.one > input{
+  margin-left: 38vw;
+  padding: 5px 10px;
+  font-size: 2rem;
+}
+
+.one > button{
+  padding: 5px 10px;
+  font-size: 2rem;
+  margin-top: 4px;
+}
+
+/* media querries */
+
+
+/* On mobile, please make all sections stack  */
+
+@media all and (max-width: 500px){
+  .one > input{
+    margin-left: 18vw;
+    padding: 5px 10px;
+    font-size: 2rem;
+  }
+}
+
+/* @media all and (min-width: 850px){
+  .one > input{
+    margin-left: 28vw;
+    padding: 5px 10px;
+    font-size: 2rem;
+  }
+} */
+
+@media all and (min-width: 580px){
+  .one > input{
+    margin-left: 25vw;
+  }
+}
+
+@media all and (min-width: 650px){
+  .one > input{
+    margin-left: 25vw;
+  }
+}
+
+@media all and (min-width: 750px){
+  .one > input{
+    margin-left: 30vw;
+  }
+}
+
+@media all and (min-width: 850px){
+  .one > input{
+    margin-left: 34vw;
+  }
+}
+
+@media all and (min-width: 1024px){
+  .one > input{
+    margin-left: 38vw;
+  }
+}
